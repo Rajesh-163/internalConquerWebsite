@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="project1c.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <div class="logo">
+                  <h1>Internal Conquer</h1>
+                  <p>Things those can change your life</p>
+            </div>
+            <nav>
+                 <ul>
+                     <li><a href="project1.html">Home</a> </li>
+                     <li><a href="#" id="btn">Sign Up</a></li>
+                     <li id="referneces"><a href="#">References</a>
+                      
+                        <div id="refer_options">
+                            <ul>
+                                <li><a href="meditation.html">Meditation</a></li>
+                                <li><a href="workout.html">Work-out</a></li>
+                                <li><a href="#">Diet</a></li>
+                                <li><a href="#">Analysis</a></li>
+                                <li><a href="#">Thoughts</a></li>
+                            </ul>
+                        </div>
+                    
+                    </li>
+                     
+                 </ul>
+            </nav>
+        </div>
+    </header>
+    <!--***********************************end of header********************************-->
+    <div class="container container-flex">
+          <main>
+              <article class="article-featured" id="box1">
+                     <h2 class="article-title">Meditation</h2>
+                     <img src="meditate.jpg" alt="" class="article-image">
+                     <p class="article-info">July 23, 2019 | 3 comments</p>
+                     <p class="article-info article-info-para">Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing the mind on a particular object,
+                          thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state.</p>
+                     <a href="#" class="article-read-more">...continue reading</a>
+              </article>
+              <article class="article-featured tohide2" id="box2">
+                <video id="main-palace-for-video" src="video1.mp4" controls autoplay></video>
+                <h2 id="main-palace-for-title">Nature</h2>
+              </article>
+              <h2>Related Videos:</h2>
+              <article class="article-recent meditation-vedio-container">
+                 
+                 <div class="videos">
+                        <video class="video-should-be" src="video1.mp4" poster="meditate.jpg"></video>
+                        <h2 class="video-title">Nature</h2>
+                 </div>
+                 <div class="videos">
+                    <video src="meditation1.mp4" ></video>
+                    <h2 class="video-title">Easy to meditate</h2>
+                    
+                </div>
+                <div class="videos">
+                    <video src="meditation2.mp4" ></video>
+                    <h2 class="video-title">benifits of meditation</h2>
+                     
+                </div>
+                <div class="videos">
+                    <video src="meditation3.mp4" ></video>
+                    <h2 class="video-title">meditation for beginners</h2>
+                </div>
+                <div class="videos">
+                    <video src="meditation4.mp4"></video>
+                    <h2 class="video-title">meditation research</h2>
+                </div>
+                
+              </article>
+              <div class="formsection modal-bg">
+                <form action="/" method="post" class="form modal">
+                    <div class="formheading">
+                        <h1>Sign Up</h1>
+                    </div>
+                    <div class="input">
+                        <label for="name">Username</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="Password">Password</label>
+                        <input type="Password" name="Password" id="Password" required>
+                    </div>
+                    <span class="modal-close">X</span>
+                    <button type="submit" class="formbutton">Submit</button>
+                </form>
+                </div>
+              
+          </main>
+          <aside class="sidebar">
+              <div class="sidebar-widget">
+                  <h2 class="widget-title">About me</h2>
+                  <img src="myself.jpeg" alt="" >
+                  <p class="widget-body">I find life better, and I'm happier, when things are nice and simple.</p>
+              </div>
+              <div class="sidebar-widget">
+                      <h2 class="widget-title">Recent posts</h2>
+                  
+                      <div class="widget-recent-post">
+                          <h3 widget-recent-post-title>Meditation</h3>
+                          <img src="meditate.jpg" alt="" class="widget-image">
+                      </div>
+                      <div class="widget-recent-post">
+                        <h3 widget-recent-post-title>Work-out</h3>
+                        <img src="people.jpg" alt="" class="widget-image">
+                      </div>
+                      <div class="widget-recent-post">
+                        <h3 widget-recent-post-title>Energetic Thoughts</h3>
+                        <img src="light-bulb.jpg" alt="" class="widget-image">
+                      </div>
+                   
+              </div>
+          </aside>
+    </div>
+    <footer>
+        <p><strong>Interanl Conquer can change your life</strong></p>
+        <p>Copyright 2021</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+    <script src="project1j.js"></script>
+</body>
+</html>
